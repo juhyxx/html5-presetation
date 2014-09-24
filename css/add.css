@@ -8,19 +8,35 @@ dt {
 	height: 32px;
 	width: 32px;
 	padding: 10px;
+	position: relative;
 }
-dt.chrome {
+dt:after {
+	height: 32px;
+	width: 32px;
+	position: absolute;
+	top:0;
+	left:0;
+	opacity: 0.1;
+	content: '';
+}
+dt.chrome,
+dt.chrome:after {
 	background-image: url('../chrome.png');
-	
 }
-dt.firefox {
+dt.firefox,
+dt.firefox:after {
 	background-image: url('../firefox.png');
 }
-dt.ie {
+dt.ie,
+dt.ie:after {
 	background-image: url('../ie.png');
 }
+
 dt.half {
 	width: 16px;
+}
+dt.no {
+	width: 0;
 }
 .input-container {
 	margin-left:30% !important; 
