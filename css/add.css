@@ -1,0 +1,38 @@
+dl {
+	display: inline-block;
+	position: absolute;
+	right: -10px;
+	z-index: 100;
+}
+dt {
+	height: 32px;
+	width: 32px;
+	padding: 10px;
+}
+dt.chrome {
+	background-image: url('../chrome.png');
+	
+}
+dt.firefox {
+	background-image: url('../firefox.png');
+}
+dt.ie {
+	background-image: url('../ie.png');
+}
+dt.half {
+	width: 16px;
+}
+.input-container {
+	margin-left:30% !important; 
+	position:relative;
+}
+.input-container label {
+	display: block;
+	text-align: left;
+}
+.input-container label:nth-child(even) {background: rgba(255, 255, 255, 0.1); }
+.input-container label input {
+	left: 250px;
+	position: absolute;
+	margin-top: 10px;
+}
