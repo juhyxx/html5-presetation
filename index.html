@@ -1,223 +1,259 @@
 <!doctype html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
+    <title>HTML 5</title>
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+    <link rel="stylesheet" href="css/add.css">
+    <script src="Spinner.js"></script>
+    <script>
+    window.onload = function() {
 
-		<title>HTML 5</title>
+        var spinner = new Spinner(document.getElementById('drawarea'));
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+        spinner.run();
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
-		<link rel="stylesheet" href="css/add.css">
-
-		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-
-		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-		<script>
-			if( window.location.search.match( /print-pdf/gi ) ) {
-				var link = document.createElement( 'link' );
-				link.rel = 'stylesheet';
-				link.type = 'text/css';
-				link.href = 'css/print/pdf.css';
-				document.getElementsByTagName( 'head' )[0].appendChild( link );
-			}
-		</script>
-
-		<!--[if lt IE 9]>
+    }
+    </script>
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+    if (window.location.search.match(/print-pdf/gi)) {
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    }
+    </script>
+    <!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
-	</head>
+</head>
 
-	<body>
-
-		<div class="reveal">
-
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-
-
-				<section>
-					<img width="50%"  src="html5.svg" style="border:0; background:none; box-shadow: none;">
-					<h3></h3>
-				</section>
-
-				<section>
-					<h1>Miroslav Juhos</h1>
-					<h2>TopMonks</h2>
-				</section>
-
-				<section>
-					<section>
-						<h1>HTML 5</h1>
-					</section>
-					<section>
-						<h1>Doctype</h1>
-						<h3>HTML 4.01 Transitional</h3>
-						<pre><code data-trim>
+<body>
+    <div class="reveal">
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section>
+                <img width="50%" src="html5.svg" style="border:0; background:none; box-shadow: none;">
+                <h3></h3>
+            </section>
+            <section>
+                <h1>Miroslav Juhos</h1>
+                <h2>TopMonks</h2>
+            </section>
+            <section>
+                <section>
+                    <h1>HTML 5 Basics</h1>
+                </section>
+                <section>
+                    <h1>Doctype</h1>
+                    <h3>HTML 4.01 Transitional</h3>
+                    <pre><code data-trim>
 							&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 						</code></pre>
-						<h3>XHTML 1.1</h3>
-						<pre><code data-trim>
+                    <h3>XHTML 1.1</h3>
+                    <pre><code data-trim>
 							&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 						</code></pre>
-						<h3>HTML 5</h3>
-						<pre><code data-trim>
+                    <h3>HTML 5</h3>
+                    <pre><code data-trim>
 							&lt;!DOCTYPE html>
 						</code></pre>
-					</section>
-
-					<section>
-						<h1>Doctype</h1>
-							<h3>HTML 4.01 Transitional</h3>
-							<pre><code data-trim>
+                </section>
+                <section>
+                    <h1>Encoding</h1>
+                    <h3>HTML 4.01 Transitional</h3>
+                    <pre><code data-trim>
 								<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 							
 							</code></pre>
-							<h3>XHTML 1.1</h3>
-							<pre><code data-trim>
+                    <h3>XHTML 1.1</h3>
+                    <pre><code data-trim>
 								<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 						</code></pre>
-							<h3>HTML 5</h3>
-						<pre><code data-trim>
+                    <h3>HTML 5</h3>
+                    <pre><code data-trim>
 							<meta charset="UTF-8">
 						</code></pre>
-					</section>
-				</section>
-
-				<section>
-					<h1>HTML 5</h1>
-					<ul>
-						<li class="fragment">Markup</li>
-						<li class="fragment">JavaScript API</li>
-						<li class="fragment">CSS 3</li>
-					</ul>
-				</section>
-
-				<section>
-					<section>
-						<h1>Markup</h1>
-					</section>
-					<section>
-						<h2>Deprecated</h2>
-						<ul>
-							<li>acronym</li>
-							<li>applet</li>
-							<li>basefont</li>
-							<li>big</li>
-							<li class="fragment highlight-green">center</li>
-							<li>dir</li>
-							<li class="fragment highlight-green">font</li>
-							<li class="fragment highlight-green">frame</li>
-							<li class="fragment highlight-green">frameset</li>
-							<li>isindex</li>
-							<li class="fragment highlight-green">noframes</li>
-							<li>strike</li>
-							<li>tt</li>
-						</ul>
-					</section>
-					<section>
-						<h2>New Semantic/Structural</h2>
-						<span class="fragment highlight-green">&lt;article&gt;</span>
-						&lt;aside&gt;
-						&lt;bdi&gt;
-						<span class="fragment highlight-green">&lt;details&gt;</span>
-						&lt;dialog&gt;
-						<span class="fragment highlight-green">&lt;figcaption&gt;	</span>   
-						<span class="fragment highlight-green">&lt;figure&gt;</span>
-						<span class="fragment highlight-green">&lt;footer&gt;</span>
-						<span class="fragment highlight-green">&lt;header&gt;</span>
-						&lt;main&gt;
-						&lt;mark&gt;
-						&lt;menuitem&gt;
-						&lt;meter&gt;
-						&lt;nav&gt;
-						&lt;progress&gt;
-						&lt;rp&gt;
-						&lt;rt&gt;
-						&lt;ruby&gt;
-						<span class="fragment highlight-green">&lt;section&gt;</span>
-						<span class="fragment highlight-green">&lt;summary&gt;</span>
-						&lt;time&gt;
-						&lt;wbr&gt;
-					</section>
-					<section>
-						<h2>Example <small>New Semantic/Structural</small></h2>
-						<dl>
-						  <dt class="ie no"></dt>
-						  <dt class="firefox no"></dt>
-						  <dt class="chrome"></dt>
-						</dl>
-						<pre><code  data-trim>
+                </section>
+                <section>
+                    <h1>Script</h1>
+                    <h3>HTML 5-</h3>
+                    <pre><code data-trim>
+								&lt;script type='text/javascript'>
+							</code></pre>
+                    <h3>HTML 5</h3>
+                    <pre><code data-trim>
+							&lt;script></script>
+						</code></pre>
+                </section>
+                <section>
+                    <h1>Attributtes</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th style="width: 458px;">Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Empty</td>
+                                <td>
+                                    <pre><code data-trim>&lt;input type="text" disabled&gt;</code></pre>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Unquoted</td>
+                                <td><pre><code data-trim>&lt;input type="text" value=John&gt;</code></pre>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="white-space:nowrap;">Double-quoted</td>
+                                <td><pre><code data-trim>&lt;input type="text" value="John Doe"&gt;</code></pre>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Single-quoted</td>
+                                <td><pre><code data-trim>&lt;input type="text" value='John Doe'&gt;</code></pre>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section>
+                    <h1>Coding standard <small>advice</small></h1>
+                    <ul>
+                    	<li>' <em>single qoute</em> - Javascript</li>
+                    	<li>" <em>double qoute</em> - HTML</li>
+                    </ul>
+                    <pre><code data-trim>element.innerHTML = '<div class="test">test</div>';</code></pre>
+                </section>
+            </section>
+            <section>
+                <h1>HTML 5</h1>
+                <ul>
+                    <li class="fragment">Markup</li>
+                    <li class="fragment">JavaScript API</li>
+                    <li class="fragment">CSS 3</li>
+                </ul>
+            </section>
+            <section>
+                <section>
+                    <h1>Markup</h1>
+                </section>
+                <section>
+                    <h2>Deprecated</h2>
+                    <ul>
+                        <li>acronym</li>
+                        <li>applet</li>
+                        <li>basefont</li>
+                        <li>big</li>
+                        <li class="fragment highlight-green">center</li>
+                        <li>dir</li>
+                        <li class="fragment highlight-green">font</li>
+                        <li class="fragment highlight-green">frame</li>
+                        <li class="fragment highlight-green">frameset</li>
+                        <li>isindex</li>
+                        <li class="fragment highlight-green">noframes</li>
+                        <li>strike</li>
+                        <li>tt</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>New Semantic/Structural</h2>
+                    <span class="fragment highlight-green">&lt;article&gt;</span>
+                    &lt;aside&gt; &lt;bdi&gt;
+                    <span class="fragment highlight-green">&lt;details&gt;</span>
+                    &lt;dialog&gt;
+                    <span class="fragment highlight-green">&lt;figcaption&gt;</span>
+                    <span class="fragment highlight-green">&lt;figure&gt;</span>
+                    <span class="fragment highlight-green">&lt;footer&gt;</span>
+                    <span class="fragment highlight-green">&lt;header&gt;</span>
+                    &lt;main&gt; &lt;mark&gt; &lt;menuitem&gt; &lt;meter&gt; &lt;nav&gt; &lt;progress&gt; &lt;rp&gt; &lt;rt&gt; &lt;ruby&gt;
+                    <span class="fragment highlight-green">&lt;section&gt;</span>
+                    <span class="fragment highlight-green">&lt;summary&gt;</span>
+                    &lt;time&gt; &lt;wbr&gt;
+                </section>
+                <section>
+                    <h2>Example
+                        <small>New Semantic/Structural</small>
+                    </h2>
+                    <dl>
+                        <dt class="ie no"></dt>
+                        <dt class="firefox no"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <pre><code  data-trim>
 								<details>
 	<summary>Summary</summary>
 	Content
 </details>
 							</code></pre>
-						<details>
-							<summary>Summary</summary>
-							Content
-						</details>
-					
-					</section>
-
-					<section>
-						<h2>Example <small>New Semantic/Structural</small> </h2>
-						<dl>
-						  <dt class="ie half"></dt>
-						  <dt class="firefox"></dt>
-						  <dt class="chrome"></dt>
-						</dl>
-						<pre><code data-trim>
+                    <details>
+                        <summary>Summary</summary>
+                        Content
+                    </details>
+                </section>
+                <section>
+                    <h2>Example
+                        <small>New Semantic/Structural</small>
+                    </h2>
+                    <dl>
+                        <dt class="ie half"></dt>
+                        <dt class="firefox"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <pre><code data-trim>
 								<progress></progress>
 						</code></pre>
-						<progress></progress>
-
-						<pre><code data-trim>
+                    <progress></progress>
+                    <pre><code data-trim>
 								<progress value="22" max="100"></progress>
 							</code></pre>
-						<progress value="80" max="100"></progress>
-
-					</section>
-					<section>
-						<h2>Example <small>New Semantic/Structural</small> </h2>
-						<dl>
-						  <dt class="ie half"></dt>
-						  <dt class="firefox"></dt>
-						  <dt class="chrome"></dt>
-						</dl>
-						<pre><code data-trim>
+                    <progress value="80" max="100"></progress>
+                </section>
+                <section>
+                    <h2>Example
+                        <small>New Semantic/Structural</small>
+                    </h2>
+                    <dl>
+                        <dt class="ie half"></dt>
+                        <dt class="firefox"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <pre><code data-trim>
 								<meter value="0.6">60%</meter>
 						</code></pre>
-						<meter value="0.6">60%</meter>
-						<pre><code data-trim>
+                    <meter value="0.6">60%</meter>
+                    <pre><code data-trim>
 								<meter value="2" min="0" max="10">2 out of 10</meter>
 						</code></pre>
-						<meter value="2" min="0" max="10">2 out of 10</meter>
-					</section>
-
-					<section>
-						<h2>New Form Elements</h2>
-						&lt;datalist&gt;
-						&lt;keygen&gt;
-						&lt;output&gt;
-					</section>
-
-					<section>
-						<h2>Example <small>New Form Elements</small></h2>
-						<dl>
-						  <dt class="ie half"></dt>
-						  <dt class="firefox"></dt>
-						  <dt class="chrome"></dt>
-						</dl>
-						<pre>
+                    <meter value="2" min="0" max="10">2 out of 10</meter>
+                </section>
+                <section>
+                    <h2>New Form Elements</h2>
+                    &lt;datalist&gt; &lt;keygen&gt; &lt;output&gt;
+                </section>
+                <section>
+                    <h2>Example
+                        <small>New Form Elements</small>
+                    </h2>
+                    <dl>
+                        <dt class="ie half"></dt>
+                        <dt class="firefox"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <pre>
 							<code data-trim>
 								<input list="browsers">
 
@@ -230,192 +266,275 @@
 </datalist>
 							</code>
 						</pre>
+                    <input list="browsers">
+                    <datalist id="browsers">
+                        <option value="Internet Explorer">
+                            <option value="Firefox">
+                                <option value="Chrome">
+                                    <option value="Opera">
+                                        <option value="Safari">
+                    </datalist>
+                </section>
+                <section>
+                    <h2>New Input Types</h2>
+                    <div class="input-container">
+                        <label>color
+                            <input type="color">
+                        </label>
+                        <label>date
+                            <input type="date">
+                        </label>
+                        <label>datetime
+                            <input type="datetime">
+                        </label>
+                        <label>datetime-local
+                            <input type="datetime-local">
+                        </label>
+                        <label>email
+                            <input type="email">
+                        </label>
+                        <label>month
+                            <input type="month">
+                        </label>
+                        <label>number
+                            <input type="number">
+                        </label>
+                        <label>range
+                            <input type="range">
+                        </label>
+                        <label>search
+                            <input type="search">
+                        </label>
+                        <label>tel
+                            <input type="tel">
+                        </label>
+                        <label>time
+                            <input type="time">
+                        </label>
+                        <label>url
+                            <input type="url">
+                        </label>
+                        <label>week
+                            <input type="week">
+                        </label>
+                    </div>
+                </section>
+                <section>
+                    <h2>HTML5 Graphics</h2>
+                    &lt;canvas&gt;
+                    <div>
+                        <canvas id="drawarea" width="45" height="45"></canvas>
+                    </div>
+                    &lt;svg&gt;
+                </section>
+                <section>
+                    <dl>
+                        <dt class="ie"></dt>
+                        <dt class="firefox"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <h2>New Media Elements</h2>
+                    &lt;audio&gt; &lt;embed&gt; &lt;source&gt; &lt;track&gt; &lt;video&gt;
+                </section>
+                <section>
+                    <h2>Example
+                        <small>New Media Elements</small>
+                    </h2>
+                    <audio controls>
+                        <source src="horse.ogg" type="audio/ogg">
+                            <source src="horse.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                    </audio>
+                    <video width="320" height="240" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                    </video>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h1>JavaScript API</h1>
+                </section>
+                <section>
+                    <dl>
+                        <dt class="ie"></dt>
+                        <dt class="firefox"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <h2>Local data storage
+                        <small>JS API</small>
+                    </h2>
+                </section>
+                <section>
+                    <dl>
+                        <dt class="ie half"></dt>
+                        <dt class="firefox half"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <h2>Local file access
+                        <small>JS API</small>
+                    </h2>
+                </section>
+                <section>
+                    <dl>
+                        <dt class="chrome"></dt>
+                        <dt class="ie no"></dt>
+                        <dt class="firefox no"></dt>
+                    </dl>
+                    <h2>Local SQL database
+                        <small>JS API</small>
+                    </h2>
+                </section>
+                <section>
+                    <dl>
+                        <dt class="ie"></dt>
+                        <dt class="firefox"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <h2>Application cache
+                        <small>JS API</small>
+                    </h2>
+                    <ul>
+                        <li>manifest</li>
+                    </ul>
+                </section>
+                <section>
+                    <dl>
+                        <dt class="ie"></dt>
+                        <dt class="firefox"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <h2>Javascript workers
+                        <small>JS API</small>
+                    </h2>
+                </section>
+                <section>
+                    <dl>
+                        <dt class="ie"></dt>
+                        <dt class="firefox"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <h2>XHTMLHttpRequest 2
+                        <small>JS API</small>
+                    </h2>
+                    <ul>
+                        <li>responseType</li>
+                        <li>progress</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>GeoLocation
+                        <small>JS API</small>
+                    </h2>
+                </section>
+                <section>
+                    <h2>Drag and Drop
+                        <small>JS API</small>
+                    </h2>
+                </section>
+                <section>
+                    <h2>SSE
+                        <small>JS API</small>
+                    </h2>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h1>CSS 3</h1>
+                </section>
+                <section>
+                    <h2>Selectors
+                        <small>CSS 3</small>
+                    </h2>
+                </section>
+                <section>
+                    <h2>Backgrounds and Borders
+                        <small>CSS 3</small>
+                    </h2>
+                </section>
+                <section>
+                    <h2>2D Transforms
+                        <small>CSS 3</small>
+                    </h2>
+                </section>
+                <section>
+                    <h2>3D Transforms
+                        <small>CSS 3</small>
+                    </h2>
+                </section>
+                <section>
+                    <h2>Transitions and Animations
+                        <small>CSS 3</small>
+                    </h2>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h1>Back compatibility</h1>
+                    <h2>Polyfills (shims)</h2>
+                </section>
+                <section>
+                    <h2>Modernizr</h2>
+                </section>
+            </section>
+        </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+    <script>
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: false,
+        progress: false,
+        history: true,
+        center: true,
 
-						<input list="browsers">
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
-						<datalist id="browsers">
-						  <option value="Internet Explorer">
-						  <option value="Firefox">
-						  <option value="Chrome">
-						  <option value="Opera">
-						  <option value="Safari">
-						</datalist>
-					</section>
-					
-					<section>
-							<h2>New Input Types</h2>
-							<div class="input-container">
-								<label>color<input type="color"></label>
-								<label>date<input type="date"></label>
-								<label>datetime<input type="datetime"></label>
-								<label>datetime-local<input type="datetime-local"></label>
-								<label>email<input type="email"></label>
-								<label>month<input type="month"></label>
-								<label>number<input type="number"></label>
-								<label>range<input type="range"></label>
-								<label>search<input type="search"></label>
-								<label>tel<input type="tel"></label>
-								<label>time<input type="time"></label>
-								<label>url<input type="url"></label>
-								<label>week<input type="week"></label>
-							</div>
-						
-					</section>
-					<section>
-						<h2>HTML5 Graphics</h2>
-						&lt;canvas&gt;
-						&lt;svg&gt;
-					</section>
-					<section>
-						<dl>
-						  <dt class="ie"></dt>
-						  <dt class="firefox"></dt>
-						  <dt class="chrome"></dt>
-						</dl>
-						<h2>New Media Elements</h2>
-						&lt;audio&gt;
-						&lt;embed&gt;
-						&lt;source&gt;
-						&lt;track&gt;
-						&lt;video&gt;
-					</section>					
-				</section>
+        // Parallax scrolling
+        // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+        // parallaxBackgroundSize: '2100px 900px',
 
-				<section>
-					<section>
-					<h1>JavaScript API</h1>
+        // Optional libraries used to extend on reveal.js
+        dependencies: [{
+            src: 'lib/js/classList.js',
+            condition: function() {
+                return !document.body.classList;
+            }
+        }, {
+            src: 'plugin/markdown/marked.js',
+            condition: function() {
+                return !!document.querySelector('[data-markdown]');
+            }
+        }, {
+            src: 'plugin/markdown/markdown.js',
+            condition: function() {
+                return !!document.querySelector('[data-markdown]');
+            }
+        }, {
+            src: 'plugin/highlight/highlight.js',
+            async: true,
+            callback: function() {
+                hljs.initHighlightingOnLoad();
+            }
+        }, {
+            src: 'plugin/zoom-js/zoom.js',
+            async: true,
+            condition: function() {
+                return !!document.body.classList;
+            }
+        }, {
+            src: 'plugin/notes/notes.js',
+            async: true,
+            condition: function() {
+                return !!document.body.classList;
+            }
+        }]
+    });
+    </script>
+</body>
 
-					
-					</section>
-					<section>
-						<dl>
-						  <dt class="ie"></dt>
-						  <dt class="firefox"></dt>
-						  <dt class="chrome"></dt>
-						</dl>
-						<h2>Local data storage <small>JS API</small></h2>
-					</section>
-					<section>
-						<dl>
-						  <dt class="ie half"></dt>
-						  <dt class="firefox half"></dt>
-						  <dt class="chrome"></dt>
-						</dl>
-						<h2>Local file access <small>JS API</small></h2>
-					</section>
-					<section>
-						<dl>
-						  <dt class="chrome"></dt>
-						  <dt class="ie no"></dt>
-						  <dt class="firefox no"></dt>
-						</dl>
-						<h2>Local SQL database <small>JS API</small></h2>
-					</section>
-					<section>
-						<dl>
-						  <dt class="ie"></dt>
-						  <dt class="firefox"></dt>
-						  <dt class="chrome"></dt>
-						</dl>
-						<h2>Application cache <small>JS API</small></h2>
-						<ul>
-							<li>manifest</li>
-						</ul>
-					</section>
-					<section>
-						<dl>
-						  <dt class="ie"></dt>
-						  <dt class="firefox"></dt>
-						  <dt class="chrome"></dt>
-						</dl>
-						<h2>Javascript workers <small>JS API</small></h2>
-					</section>
-					<section>
-						<dl>
-						  <dt class="ie"></dt>
-						  <dt class="firefox"></dt>
-						  <dt class="chrome"></dt>
-						</dl>
-						<h2>XHTMLHttpRequest 2 <small>JS API</small></h2>
-						<ul>
-							<li>responseType</li>
-							<li>progress</li>
-						</ul>
-					</section>
-				</section>
-
-				<section>
-					<section>
-						<h1>CSS 3</h1>
-					</section>
-
-					<section>
-						<h2>Selectors <small>CSS 3</small></h2>
-					</section>
-					<section>
-						<h2>Backgrounds and Borders <small>CSS 3</small></h2>
-					</section>
-
-					<section>
-						<h2>2D Transforms <small>CSS 3</small></h2>
-					</section>
-
-					<section>
-						<h2>3D Transforms <small>CSS 3</small></h2>
-					</section>
-
-					<section>
-						<h2>Transitions and Animations <small>CSS 3</small></h2>
-					</section>
-					
-				</section>
-
-				<section>
-					<section>
-						<h1>Back compatibility</h1>
-						<h2>Polyfills (shims)</h2>
-					</section>
-					<section>
-						<h2>Modernizr</h2>
-					</section>
-				</section>
-
-			</div>
-
-		</div>
-
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
-
-		<script>
-
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: false,
-				progress: false,
-				history: true,
-				center: true,
-
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
-
-				// Parallax scrolling
-				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-				// parallaxBackgroundSize: '2100px 900px',
-
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
-
-		</script>
-
-	</body>
 </html>
