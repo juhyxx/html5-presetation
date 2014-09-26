@@ -52,3 +52,6 @@ dt.no {
 	position: absolute;
 	margin-top: 10px;
 }
+em {
+	opacity: 0.5;
+}
