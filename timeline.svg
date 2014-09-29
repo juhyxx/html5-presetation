@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1833.809px" height="393.258px" viewBox="725.476 0 1833.809 393.258" enable-background="new 725.476 0 1833.809 393.258"
+	 xml:space="preserve">
+<pattern  x="982.142" y="617.129" width="120" height="2030" patternUnits="userSpaceOnUse" id="SVGID_1_" viewBox="1.5 -2031.5 120 2030" overflow="visible">
+	<g>
+		<polygon fill="none" points="1.5,-1.5 121.5,-1.5 121.5,-2031.5 1.5,-2031.5 		"/>
+		<g>
+			<polygon fill="none" points="1.5,-2031.5 121.5,-2031.5 121.5,-1.5 1.5,-1.5 			"/>
+			<g>
+				<polygon fill="none" points="1.5,-1.5 121.5,-1.5 121.5,-2031.5 1.5,-2031.5 				"/>
+				<g>
+					<polygon fill="none" points="1.5,-2031.5 121.5,-2031.5 121.5,-1.5 1.5,-1.5 					"/>
+					<line fill="none" stroke="#CCCCCC" stroke-width="3" stroke-linecap="round" x1="1.5" y1="-2031.5" x2="1.5" y2="-1.5"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</pattern>
+<pattern  id="SVGID_2_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 1 3093.3569 39184.1133)">
+</pattern>
+<rect x="79.739" y="28.397" opacity="0.53" fill="url(#SVGID_2_)" width="2458" height="319.246"/>
+<title>Timeline of Web Browsers</title>
+<desc>This timeline displays the releases of major versions of web browsers. 
+It includes version numbers for milestones reached by each browser, and displays the points at which a browser started from another. Source data comes from browser websites, wikipedia articles, archive.org and some other websites.
+
+First version created on June 12, 2007 by ADeveria for Wikipedia.
+
+Changelog available in source.
+	</desc>
+<g transform="translate(0, -20)">
+	<g id="yearlabels_1_">
+		<text transform="matrix(1 0 0 1 170.4924 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">1995</text>
+		<text transform="matrix(1 0 0 1 290.4924 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">1996</text>
+		<text transform="matrix(1 0 0 1 410.4924 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">1997</text>
+		<text transform="matrix(1 0 0 1 530.4924 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">1998</text>
+		<text transform="matrix(1 0 0 1 650.4919 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">1999</text>
+		<text transform="matrix(1 0 0 1 770.4919 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2000</text>
+		<text transform="matrix(1 0 0 1 890.4919 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2001</text>
+		<text transform="matrix(1 0 0 1 1010.4919 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2002</text>
+		<text transform="matrix(1 0 0 1 1130.4929 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2003</text>
+		<text transform="matrix(1 0 0 1 1250.4929 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2004</text>
+		<text transform="matrix(1 0 0 1 1370.4929 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2005</text>
+		<text transform="matrix(1 0 0 1 1490.4929 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2006</text>
+		<text transform="matrix(1 0 0 1 1610.4929 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2007</text>
+		<text transform="matrix(1 0 0 1 1730.4929 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2008</text>
+		<text transform="matrix(1 0 0 1 1850.4929 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2009</text>
+		<text transform="matrix(1 0 0 1 1970.4929 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2010</text>
+		<text transform="matrix(1 0 0 1 2091.2351 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2011</text>
+		<text transform="matrix(1 0 0 1 2210.4929 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2012</text>
+		<text transform="matrix(1 0 0 1 2330.4929 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2013</text>
+		<text transform="matrix(1 0 0 1 2450.4929 348.1973)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">2014</text>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 464.2678 116.8262)" font-family="'Arial-BoldItalicMT'" font-size="12">Based on </text>
+<text transform="matrix(1 0 0 1 521.614 116.8262)" font-family="'Arial-BoldItalicMT'" font-size="12">Trident layout engine</text>
+<path d="M-7,0"/>
+<g>
+	<g id="ie">
+		<a xlink:href="http://en.wikipedia.org/wiki/Internet_Explorer" >
+			<text transform="matrix(1 0 0 1 217.7385 158.8262)" font-family="'ArialMT'" font-size="12">Internet Explorer</text>
+		</a>
+		
+			<line fill="none" stroke="#0000FF" stroke-width="3" stroke-linecap="round" x1="207.739" y1="136.826" x2="2497.739" y2="136.826"/>
+		<circle fill="#FFFFFF" stroke="#0000FF" stroke-width="2" cx="207.739" cy="136.826" r="10"/>
+		<text transform="matrix(1 0 0 1 203.8459 141.8262)" font-family="'ArialMT'" font-size="14">1</text>
+		<circle fill="#FFFFFF" stroke="#0000FF" stroke-width="2" cx="237.739" cy="136.826" r="10"/>
+		<text transform="matrix(1 0 0 1 233.8459 141.8262)" font-family="'ArialMT'" font-size="14">2</text>
+		<circle fill="#FFFFFF" stroke="#0000FF" stroke-width="2" cx="327.739" cy="136.826" r="10"/>
+		<text transform="matrix(1 0 0 1 323.8459 141.8262)" font-family="'ArialMT'" font-size="14">3</text>
+		<circle fill="#FFFFFF" stroke="#0000FF" stroke-width="2" cx="467.739" cy="136.826" r="10"/>
+		<text transform="matrix(1 0 0 1 463.8459 141.8262)" font-family="'ArialMT'" font-size="14">4</text>
+		<circle fill="#FFFFFF" stroke="#0000FF" stroke-width="2" cx="637.739" cy="136.826" r="10"/>
+		<text transform="matrix(1 0 0 1 633.8459 141.8262)" font-family="'ArialMT'" font-size="14">5</text>
+		<circle fill="#FFFFFF" stroke="#0000FF" stroke-width="2" cx="797.739" cy="136.826" r="10"/>
+		<text transform="matrix(1 0 0 1 792.1775 139.8262)" font-family="'ArialMT'" font-size="8">5.5</text>
+		<circle fill="#FFFFFF" stroke="#0000FF" stroke-width="2" cx="947.739" cy="136.826" r="10"/>
+		<text transform="matrix(1 0 0 1 943.8459 141.8262)" font-family="'ArialMT'" font-size="14">6</text>
+		<circle fill="#FFFFFF" stroke="#0000FF" stroke-width="2" cx="1547.739" cy="136.826" r="10"/>
+		<text transform="matrix(1 0 0 1 1543.8464 141.8262)" font-family="'ArialMT'" font-size="14">7</text>
+		<circle fill="#FFFFFF" stroke="#0000FF" stroke-width="2" cx="1837.739" cy="136.826" r="10"/>
+		<text transform="matrix(1 0 0 1 1833.8464 141.8262)" font-family="'ArialMT'" font-size="14">8</text>
+		<circle fill="#FFFFFF" stroke="#0000FF" stroke-width="2" cx="2077.739" cy="136.826" r="10"/>
+		<text transform="matrix(1 0 0 1 2073.8464 141.8262)" font-family="'ArialMT'" font-size="14">9</text>
+		<circle fill="#FFFFFF" stroke="#0000FF" stroke-width="2" cx="2267.739" cy="136.826" r="10"/>
+		<text transform="matrix(1 0 0 1 2259.9519 141.8262)" font-family="'ArialMT'" font-size="14">10</text>
+		<circle fill="#FFFFFF" stroke="#0000FF" stroke-width="2" cx="2387.739" cy="136.826" r="10"/>
+		<text transform="matrix(1 0 0 1 2380.4714 141.8262)" font-family="'ArialMT'" font-size="14">11</text>
+	</g>
+</g>
+<g>
+	<g id="firefox">
+		<a xlink:href="http://en.wikipedia.org/wiki/Firefox" >
+			<text transform="matrix(1 0 0 1 1052.739 285.375)" font-family="'ArialMT'" font-size="12">Phoenix</text>
+		</a>
+		
+			<line fill="none" stroke="#FFA500" stroke-width="3" stroke-linecap="round" x1="1057.739" y1="262.375" x2="2447.739" y2="262.375"/>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1057.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1052.1785 265.375)" font-family="'ArialMT'" font-size="8">0.1</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1067.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1062.1785 265.375)" font-family="'ArialMT'" font-size="8">0.4</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1087.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1082.1785 265.375)" font-family="'ArialMT'" font-size="8">0.5</text>
+		<a xlink:href="http://en.wikipedia.org/wiki/Firefox" >
+			<text transform="matrix(1 0 0 1 1132.739 285.375)" font-family="'ArialMT'" font-size="12">Firebird</text>
+		</a>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1137.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1132.1785 265.375)" font-family="'ArialMT'" font-size="8">0.6</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1187.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1182.1785 265.375)" font-family="'ArialMT'" font-size="8">0.7</text>
+		<a xlink:href="http://en.wikipedia.org/wiki/Firefox" >
+			<text transform="matrix(1 0 0 1 1222.739 285.375)" font-family="'ArialMT'" font-size="12">Firefox</text>
+		</a>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1227.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1222.1785 265.375)" font-family="'ArialMT'" font-size="8">0.8</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1267.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1262.1785 265.375)" font-family="'ArialMT'" font-size="8">0.9</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1297.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1289.9539 265.375)" font-family="'ArialMT'" font-size="8">0.10</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1317.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1313.8464 267.375)" font-family="'ArialMT'" font-size="14">1</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1437.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1432.1785 265.375)" font-family="'ArialMT'" font-size="8">1.5</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1547.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1543.8464 267.375)" font-family="'ArialMT'" font-size="14">2</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1747.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1743.8464 267.375)" font-family="'ArialMT'" font-size="14">3</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1847.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1842.1785 265.375)" font-family="'ArialMT'" font-size="8">3.5</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="1937.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 1932.1785 265.375)" font-family="'ArialMT'" font-size="8">3.6</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2077.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2073.8464 267.375)" font-family="'ArialMT'" font-size="14">4</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2107.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2103.8464 267.375)" font-family="'ArialMT'" font-size="14">5</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2127.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2123.8464 267.375)" font-family="'ArialMT'" font-size="14">6</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2137.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2133.8464 267.375)" font-family="'ArialMT'" font-size="14">7</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2157.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2153.8464 267.375)" font-family="'ArialMT'" font-size="14">8</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2167.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2163.8464 267.375)" font-family="'ArialMT'" font-size="14">9</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2177.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2169.9519 267.375)" font-family="'ArialMT'" font-size="14">10</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2197.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2190.4714 267.375)" font-family="'ArialMT'" font-size="14">11</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2207.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2199.9519 267.375)" font-family="'ArialMT'" font-size="14">12</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2227.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2219.9519 267.375)" font-family="'ArialMT'" font-size="14">13</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2237.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2229.9519 267.375)" font-family="'ArialMT'" font-size="14">14</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2247.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2239.9519 267.375)" font-family="'ArialMT'" font-size="14">15</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2267.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2259.9519 267.375)" font-family="'ArialMT'" font-size="14">16</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2277.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2269.9519 267.375)" font-family="'ArialMT'" font-size="14">17</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2297.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2289.9519 267.375)" font-family="'ArialMT'" font-size="14">18</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2307.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2299.9519 267.375)" font-family="'ArialMT'" font-size="14">19</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2327.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2319.9519 267.375)" font-family="'ArialMT'" font-size="14">20</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2337.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2329.9519 267.375)" font-family="'ArialMT'" font-size="14">21</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2347.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2339.9519 267.375)" font-family="'ArialMT'" font-size="14">22</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2367.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2359.9519 267.375)" font-family="'ArialMT'" font-size="14">23</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2377.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2369.9519 267.375)" font-family="'ArialMT'" font-size="14">24</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2397.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2389.9519 267.375)" font-family="'ArialMT'" font-size="14">25</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2407.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2399.9519 267.375)" font-family="'ArialMT'" font-size="14">26</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2427.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2419.9519 267.375)" font-family="'ArialMT'" font-size="14">27</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2437.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2429.9519 267.375)" font-family="'ArialMT'" font-size="14">28</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2447.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2439.9519 267.375)" font-family="'ArialMT'" font-size="14">29</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2467.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2459.9519 267.375)" font-family="'ArialMT'" font-size="14">30</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2477.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2469.9519 267.375)" font-family="'ArialMT'" font-size="14">31</text>
+		<circle fill="#FFFFFF" stroke="#FFA500" stroke-width="2" cx="2497.739" cy="262.375" r="10"/>
+		<text transform="matrix(1 0 0 1 2489.9519 267.375)" font-family="'ArialMT'" font-size="14">32</text>
+	</g>
+</g>
+<g>
+	<g id="chrome">
+		<a xlink:href="http://en.wikipedia.org/wiki/Google_Chrome" >
+			<text transform="matrix(1 0 0 1 1782.739 186.7773)" font-family="'ArialMT'" font-size="12">Chrome</text>
+		</a>
+		
+			<line fill="none" stroke="#7D753D" stroke-width="3" stroke-linecap="round" x1="1777.739" y1="201.779" x2="2497.739" y2="201.779"/>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="1777.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 1772.1785 204.7773)" font-family="'ArialMT'" font-size="8">0.2</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="1807.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 1803.8464 206.7773)" font-family="'ArialMT'" font-size="14">1</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="1857.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 1853.8464 206.7773)" font-family="'ArialMT'" font-size="14">2</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="1897.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 1893.8464 206.7773)" font-family="'ArialMT'" font-size="14">3</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="1937.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 1933.8464 206.7773)" font-family="'ArialMT'" font-size="14">4</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="1957.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 1952.1785 204.7773)" font-family="'ArialMT'" font-size="8">4.1</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="1977.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 1973.8464 206.7773)" font-family="'ArialMT'" font-size="14">5</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2017.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2013.8464 206.7773)" font-family="'ArialMT'" font-size="14">6</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2027.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2023.8464 206.7773)" font-family="'ArialMT'" font-size="14">7</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2047.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2043.8464 206.7773)" font-family="'ArialMT'" font-size="14">8</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2067.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2063.8464 206.7773)" font-family="'ArialMT'" font-size="14">9</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2077.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2069.9519 206.7773)" font-family="'ArialMT'" font-size="14">10</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2087.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2080.4714 206.7773)" font-family="'ArialMT'" font-size="14">11</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2107.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2099.9519 206.7773)" font-family="'ArialMT'" font-size="14">12</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2127.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2119.9519 206.7773)" font-family="'ArialMT'" font-size="14">13</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2137.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2129.9519 206.7773)" font-family="'ArialMT'" font-size="14">14</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2147.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2139.9519 206.7773)" font-family="'ArialMT'" font-size="14">15</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2167.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2159.9519 206.7773)" font-family="'ArialMT'" font-size="14">16</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2187.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2179.9519 206.7773)" font-family="'ArialMT'" font-size="14">17</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2197.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2189.9519 206.7773)" font-family="'ArialMT'" font-size="14">18</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2217.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2209.9519 206.7773)" font-family="'ArialMT'" font-size="14">19</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2227.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2219.9519 206.7773)" font-family="'ArialMT'" font-size="14">20</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2237.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2229.9519 206.7773)" font-family="'ArialMT'" font-size="14">21</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2257.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2249.9519 206.7773)" font-family="'ArialMT'" font-size="14">22</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2277.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2269.9519 206.7773)" font-family="'ArialMT'" font-size="14">23</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2297.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2289.9519 206.7773)" font-family="'ArialMT'" font-size="14">24</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2307.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2299.9519 206.7773)" font-family="'ArialMT'" font-size="14">25</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2317.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2309.9519 206.7773)" font-family="'ArialMT'" font-size="14">26</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2337.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2329.9519 206.7773)" font-family="'ArialMT'" font-size="14">27</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2347.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2339.9519 206.7773)" font-family="'ArialMT'" font-size="14">28</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2367.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2359.9519 206.7773)" font-family="'ArialMT'" font-size="14">29</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2377.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2369.9519 206.7773)" font-family="'ArialMT'" font-size="14">30</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2397.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2389.9519 206.7773)" font-family="'ArialMT'" font-size="14">31</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2417.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2409.9519 206.7773)" font-family="'ArialMT'" font-size="14">32</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2427.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2419.9519 206.7773)" font-family="'ArialMT'" font-size="14">33</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2447.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2439.9519 206.7773)" font-family="'ArialMT'" font-size="14">34</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2457.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2449.9519 206.7773)" font-family="'ArialMT'" font-size="14">35</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2477.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2469.9519 206.7773)" font-family="'ArialMT'" font-size="14">36</text>
+		<circle fill="#FFFFFF" stroke="#7D753D" stroke-width="2" cx="2487.739" cy="201.779" r="10"/>
+		<text transform="matrix(1 0 0 1 2479.9519 206.7773)" font-family="'ArialMT'" font-size="14">37</text>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 14.5466 40.9121)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30">HTML2</text>
+<text transform="matrix(1 0 0 1 274.9045 40.9121)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30">CSS1</text>
+<text transform="matrix(1 0 0 1 382.0793 40.9121)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30">HTML4</text>
+<text transform="matrix(1 0 0 1 514.9314 40.9121)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30">CSS2</text>
+<text transform="matrix(1 0 0 1 736.5867 40.9121)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30">XHTML1</text>
+<text transform="matrix(1 0 0 1 1814.406 40.9121)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30">HTML5</text>
+<text transform="matrix(1 0 0 1 1350.7371 40.9121)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30">AJAX</text>
+</svg>

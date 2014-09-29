@@ -41,7 +41,6 @@
 
 <body>
     <div class="reveal">
-        <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
             <section>
                 <img width="50%" src="html5.svg" style="border:0; background:none; box-shadow: none;">
@@ -50,6 +49,10 @@
             <section>
                 <h1>Miroslav Juhos</h1>
                 <h2>TopMonks</h2>
+            </section>
+            <section>
+                <h1>History</h1>
+                <img width="100%" src="timeline.svg" style="border:0; background:none; box-shadow: none;">
             </section>
             <section>
                 <section>
@@ -155,7 +158,7 @@
                 <h1>Markup</h1>
             </section>
             <section>
-                <h2>Deprecated</h2>
+                <h1>Deprecated</h1>
                 <ul>
                     <li>acronym</li>
                     <li>applet</li>
@@ -174,7 +177,7 @@
             </section>
             <section>
                 <section>
-                    <h2>New Semantic/Structural</h2>
+                    <h1>New Semantic/Structural</h1>
                     <span class="fragment highlight-green">&lt;article&gt;</span>
                     &lt;aside&gt; &lt;bdi&gt;
                     <span class="fragment highlight-green">&lt;details&gt;</span>
@@ -327,7 +330,7 @@
                 </section>
             </section>
             <section>
-                <h2>HTML5 Graphics</h2>
+                <h1>HTML5 Graphics</h1>
                 &lt;canvas&gt;
                 <div>
                     <canvas id="drawarea" width="45" height="45"></canvas>
@@ -341,7 +344,7 @@
                         <dt class="firefox"></dt>
                         <dt class="chrome"></dt>
                     </dl>
-                    <h2>New Media Elements</h2>
+                    <h1>New Media Elements</h1>
                     &lt;audio&gt; &lt;embed&gt; &lt;source&gt; &lt;track&gt; &lt;video&gt;
                 </section>
                 <section>
@@ -376,7 +379,6 @@
                     <h3>name/value pairs</h3>
                 </section>
                 <section>
-                    <h2>Local data storage</h2>
                     <table>
                         <tr>
                             <th>Storage
@@ -406,14 +408,45 @@
                 </section>
             </section>
             <section>
-                <dl>
-                    <dt class="ie half"></dt>
-                    <dt class="firefox half"></dt>
-                    <dt class="chrome"></dt>
-                </dl>
-                <h1>Local file access
-                    <small>JS API</small>
-                </h1>
+                <section>
+                    <dl>
+                        <dt class="ie half"></dt>
+                        <dt class="firefox half"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <h1>Local file access
+                        <small>JS API</small>
+                    </h1>
+                </section>
+                <section data-markdown>
+                    ##Local file access <small>JS API</small>
+                    * FileList
+                    * Blob
+                    * File
+                    * FileReader
+                    * URL scheme
+
+                </section>
+                <section data-markdown>
+                    #FileReader
+                    |FileReader|
+                    |----------|
+                    | + readAsText(*File* file, *String* encoding)|
+                    | + readAsDataURL(*File* file)|
+                    | + readAsBinaryString(*File* file)|
+                    | + readAsArrayBuffer(*File* file)|
+                    | + abort()|              
+                </section>
+                  <section data-markdown>
+                    ##Events (ProgressEvent)
+
+                    * loadstart
+                    * progress
+                    * abort
+                    * error
+                    * load
+                    * loadend
+                </section>
             </section>
             <section>
                 <dl>
@@ -464,6 +497,11 @@
             </section>
             <section>
                 <section>
+                    <dl>
+                        <dt class="ie "></dt>
+                        <dt class="firefox "></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
                     <h1>GeoLocation
                         <small>JS API</small>
                     </h1>
@@ -521,14 +559,35 @@
                 </section>
             </section>
             <section>
+                <dl>
+                    <dt class="ie "></dt>
+                    <dt class="firefox "></dt>
+                    <dt class="chrome"></dt>
+                </dl>
                 <h1>Drag and Drop
                     <small>JS API</small>
                 </h1>
             </section>
             <section>
-                <h1>SSE
-                    <small>JS API</small>
-                </h1>
+                <section>
+                    <dl>
+                        <dt class="ie no"></dt>
+                        <dt class="firefox "></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <h1>SSE
+                        <small>JS API</small>
+                    </h1>
+                    <h2>Server-Sent Events</h2>
+                </section>
+                <section>
+                    <h2>SSE</h2>
+                    <pre><code data-trim>
+                    var source = new EventSource("demo_sse.php");
+source.onmessage = function(event) {
+    document.getElementById("result").innerHTML += event.data + "<br>";
+};</code></pre>
+                </section>
             </section>
             <section>
                 <section>
