@@ -250,41 +250,9 @@
             </section>
             <section>
                 <section>
-                    <h2>New Form Elements</h2>
-                    &lt;datalist&gt; &lt;keygen&gt; &lt;output&gt;
+                    <h1>Forms</h1>
                 </section>
-                <section>
-                    <h2>Example
-                        <small>New Form Elements</small>
-                    </h2>
-                    <dl>
-                        <dt class="ie half"></dt>
-                        <dt class="firefox"></dt>
-                        <dt class="chrome"></dt>
-                    </dl>
-                    <pre>
-                            <code data-trim>
-                                <input list="browsers">
-
-<datalist id="browsers">
-  <option value="Internet Explorer"></option>
-  <option value="Firefox"></option>
-  <option value="Chrome"></option>
-  <option value="Opera"></option>
-  <option value="Safari"></option>
-</datalist>
-                            </code>
-                        </pre>
-                    <input list="browsers">
-                    <datalist id="browsers">
-                        <option value="Internet Explorer"></option>
-                        <option value="Firefox"></option>
-                        <option value="Chrome"></option>
-                        <option value="Opera"></option>
-                        <option value="Safari"></option>
-                    </datalist>
-                </section>
-                <section>
+                 <section>
                     <h2>New Input Types</h2>
                     <div class="input-container">
                         <label>color
@@ -327,6 +295,61 @@
                             <input type="week">
                         </label>
                     </div>
+                </section>
+                <section>
+                    <h2>New Form Elements</h2>
+                    &lt;datalist&gt; &lt;keygen&gt; &lt;output&gt;
+                </section>
+                <section>
+                    <h2>Example
+                        <small>Datalist</small>
+                    </h2>
+                    <pre><code data-trim>
+                                <input list="browsers">
+
+<datalist id="browsers">
+  <option value="Internet Explorer"></option>
+  <option value="Firefox"></option>
+  <option value="Chrome"></option>
+  <option value="Opera"></option>
+  <option value="Safari"></option>
+</datalist>
+                            </code>
+                        </pre>
+                    <input list="browsers">
+                    <datalist id="browsers">
+                        <option value="Internet Explorer"></option>
+                        <option value="Firefox"></option>
+                        <option value="Chrome"></option>
+                        <option value="Opera"></option>
+                        <option value="Safari"></option>
+                    </datalist>
+                </section>
+                <section>
+                    <h2>Example
+                        <small>Datalist</small>
+                    </h2>
+                   
+                    <pre><code data-trim>
+<input type="range" list="values" step="5" min="10" max="60">
+
+<datalist id="values">
+    <option value="10"></option>
+    <option value="20"></option>
+    <option value="30"></option>
+    <option value="40"></option>
+    <option value="50"></option>
+    <option value="60"></option>
+</datalist></code></pre>
+                    <input type="range" list="values" step="5" min="10" max="60" style="width: 60%;">
+                    <datalist id="values">
+                        <option value="10"></option>
+                        <option value="20"></option>
+                        <option value="30"></option>
+                        <option value="40"></option>
+                        <option value="50"></option>
+                        <option value="60"></option>
+                    </datalist>
                 </section>
             </section>
             <section>
@@ -677,8 +700,6 @@ source.onmessage = function(event) {
                         <li>:visited</li>
                     </ul>
                 </section>
-
-
             </section>
             <section>
                 <h2>Backgrounds and Borders
@@ -686,9 +707,55 @@ source.onmessage = function(event) {
                 </h2>
             </section>
             <section>
-                <h2>2D Transforms
-                    <small>CSS 3</small>
-                </h2>
+                 <section>
+                    <h2>2D Transforms
+                        <small>CSS 3</small>
+                    </h2>
+                </section>
+                
+                <section>
+                    <h2>Example
+                        <small>2D Transforms</small>
+                    </h2>
+                    <h3>translate</h3>
+                    <div style="height:200px;">
+                        <div class="box">Original</div>
+                        <div class="box" style="transform: translate(60px,60px);opacity: 0.8">Transformed</div>
+                    </div>
+                    <h3>rotate</h3>
+                    <div style="height:200px;">
+                        <div class="box">Original</div>
+                        <div class="box" style=" transform: rotate(30deg);opacity: 0.8">Transformed</div>
+                    </div>
+
+                </section>
+                <section>
+                    <h2>Example
+                        <small>2D Transforms</small>
+                    </h2>
+                    
+                    <h3>scale</h3>
+                    <div style="height:200px;">
+                        <div class="box">Original</div>
+                        <div class="box" style=" transform: scale(0.5,0.5);opacity: 0.8">Transformed</div>
+                    </div>
+
+                    <h3>skew</h3>
+                    <div style="height:200px;">
+                        <div class="box">Original</div>
+                        <div class="box" style=" transform: skew(30deg, 10deg);opacity: 0.8">Transformed</div>
+                    </div>
+                </section>
+                <section>
+                    <h1>2D Transforms</h1>
+                     <pre><code data-trim>
+transform: translate(60px,60px);
+transform: rotate(30deg);
+transform: scale(0.5,0.5);
+transform: skew(30deg, 10deg);
+transform: matrix(rotate, scale, move, skew);
+</code></pre>
+                </section>
             </section>
             <section>
                 <h2>3D Transforms
@@ -700,7 +767,6 @@ source.onmessage = function(event) {
                     <small>CSS 3</small>
                 </h2>
             </section>
-           
             
             <section>
                 <section>
@@ -720,6 +786,21 @@ source.onmessage = function(event) {
                     <h1>Polyfills (shims)</h1>
                     <h2>Modernizr</h2>
                 </section>
+            </section>
+
+            <section data-markdown>
+                #Usefull examples
+
+                * Form validation
+                * Using before/after
+            </section>
+             <section data-markdown>
+                #JS games
+
+                * Repeater
+                * String reverse
+                * Money formating
+                * Spam email protection
             </section>
             <section>
                 <h1>Resources</h1>

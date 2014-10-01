@@ -55,3 +55,14 @@ dt.no {
 em {
 	opacity: 0.5;
 }
+
+.box {
+	background-color: red; 
+	height:100px; 
+	width: 100px;
+	opacity:0.5;
+	border: 2px solid white  !important;
+	font-size: 16px !important;
+	position: absolute;
+	left: 30%;
+}
