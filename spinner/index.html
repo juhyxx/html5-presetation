@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	<link rel="stylesheet/less" type="text/css" href="resources/style.less" />
+	<script src="lib/less-1.4.1.min.js" type="text/javascript"></script>
+	<script src="resources/Spinner.js"></script>
+
+	<script>
+	  window.onload = function() {
+		var spinner = new Spinner(document.getElementById('drawarea'));		
+		spinner.run();
+	}
+	</script>
+	<style>
+	@-webkit-keyframes hlt {
+		
+		0% {
+			background-color:#ec2f00;
+		}
+		10% {
+			background-color:#ec2f00;
+		}
+		11%{
+			background-color:#cdcdcd;
+		}
+		100%{
+			background-color:#cdcdcd;
+		}
+	}
+	@-moz-keyframes hlt {
+		
+		0% {
+			background-color:#ec2f00;
+		}
+		10% {
+			background-color:#ec2f00;
+		}
+		11%{
+			background-color:#cdcdcd;
+		}
+		100%{
+			background-color:#cdcdcd;
+		}
+	}
+	@keyframes hlt {
+		
+		0% {
+			background-color:#ec2f00;
+		}
+		10% {
+			background-color:#ec2f00;
+		}
+		11%{
+			background-color:#cdcdcd;
+		}
+		100%{
+			background-color:#cdcdcd;
+		}
+	}
+	</style>
+	</head>
+	<body>
+		<div id="container">
+			<img src="resources/spinner.gif">
+			<div id="spinner">
+				<div class="center"></div>
+				<ul>
+					<li><div></div></li>
+					<li><div></div></li>
+					<li><div></div></li>
+					<li><div></div></li>
+					<li><div></div></li>
+					<li><div></div></li>
+					<li><div></div></li>
+					<li><div></div></li>
+				</ul>
+			</div>
+			<canvas id="drawarea" width="45" height="45"></canvas>
+		</div>		
+	</body>
+</html>

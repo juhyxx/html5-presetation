@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/default.css" id="theme">
     <link rel="stylesheet" href="css/add.css">
+    
+    <script src="jquery-1.11.1.min.js"></script>
     <script src="Spinner.js"></script>
     <script>
     window.onload = function() {
@@ -806,9 +808,43 @@ transform: matrix(rotate, scale, move, skew);
                 
             </section>
             <section>
-                <h2>Transitions and Animations
-                    <small>CSS 3</small>
-                </h2>
+                <section>
+                    <h2>Transitions and Animations
+                        <small>CSS 3</small>
+                    </h2>
+                </section>
+                <section>
+                     <dl>
+                        <dt class="ie"></dt>
+                        <dt class="firefox"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <h2>Transitions</h2>
+                    <ul style="list-style-type:none;">
+                        <li>delay</li>
+                        <li>duration</li>
+                        <li>property</li>
+                        <li>timing-function</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Transitions</h2>
+                    <div>transition: property|all duration timing-function delay|initial|inherit;</div>
+                </section>
+                <section>
+                    <h2>timing-function</h2>
+                    <a href="http://cubic-bezier.com">cubic-bezier.com</a>
+                </section>
+                <section>
+                    <h2>Example <small>Transitions</small></h2>
+                    <div class="box" id="transition" style="-webkit-transition:all 1s"></div>
+                    <button onclick="$('#transition').css('opacity', 0)">Opacity 0</button>
+                    <button onclick="$('#transition').css('opacity', 1)">Opacity 1</button><br>
+                    <button onclick="$('#transition').css('background-color', 'blue')">Color Blue</button>
+                    <button onclick="$('#transition').css('background-color', 'red')">Color Red</button><br>
+                    <button onclick="$('#transition').css('transform', 'rotate(45deg)')">Rotation 45</button>
+                    <button onclick="$('#transition').css('transform', 'rotate(270deg)')">Rotation 270</button>
+                </section>
             </section>
             
             <section>
