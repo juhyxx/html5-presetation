@@ -1,68 +1,117 @@
 dl {
-	display: inline-block;
-	position: absolute;
-	right: -10px;
-	z-index: 100;
+    display: inline-block;
+    position: absolute;
+    right: -10px;
+    z-index: 100;
 }
+
 dt {
-	height: 32px;
-	width: 32px;
-	padding: 10px;
-	position: relative;
+    height: 32px;
+    width: 32px;
+    padding: 10px;
+    position: relative;
 }
+
 dt:after {
-	height: 32px;
-	width: 32px;
-	position: absolute;
-	top:0;
-	left:0;
-	opacity: 0.1;
-	content: '';
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+    content: '';
 }
+
 dt.chrome,
 dt.chrome:after {
-	background-image: url('../chrome.png');
+    background-image: url("../chrome.png");
 }
+
 dt.firefox,
 dt.firefox:after {
-	background-image: url('../firefox.png');
+    background-image: url("../firefox.png");
 }
+
 dt.ie,
 dt.ie:after {
-	background-image: url('../ie.png');
+    background-image: url("../ie.png");
 }
 
 dt.half {
-	width: 16px;
+    width: 16px;
 }
+
 dt.no {
-	width: 0;
+    width: 0;
 }
+
 .input-container {
-	margin-left:30% !important; 
-	position:relative;
+    margin-left: 30% !important;
+    position: relative;
 }
+
 .input-container label {
-	display: block;
-	text-align: left;
+    display: block;
+    text-align: left;
 }
-.input-container label:nth-child(even) {background: rgba(255, 255, 255, 0.1); }
+
+.input-container label:nth-child(even) {
+    background: rgba(255, 255, 255, 0.1);
+}
+
 .input-container label input {
-	left: 250px;
-	position: absolute;
-	margin-top: 10px;
+    left: 250px;
+    position: absolute;
+    margin-top: 10px;
 }
+
 em {
-	opacity: 0.5;
+    opacity: 0.5;
 }
 
 .box {
-	background-color: red; 
-	height:100px; 
-	width: 100px;
-	opacity:0.5;
-	border: 2px solid white  !important;
-	font-size: 16px !important;
-	position: absolute;
-	left: 30%;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    opacity: 0.5;
+    border: 2px solid white  !important;
+    font-size: 16px !important;
+    position: absolute;
+    left: 30%;
 }
+
+.rotate {
+	//position: absolute;
+    -webkit-animation: spin3d 20s linear infinite;
+    transform-origin: 50% 50%;
+    transform-style: preserve-3d;
+    .box {
+    	position: relative;
+    }
+}
+
+@-webkit-keyframes spin3d {
+    100% {
+        -webkit-transform: rotateY(360deg);
+    }
+}
+
+
+@-webkit-keyframes hlt {
+		0% {
+			background-color:orange;
+		}
+
+		10% {
+			background-color:orange;
+		}
+
+		11%{
+			background-color:lightgray;
+		}
+
+		100%{
+			background-color:lightgray;
+
+		}
+	}

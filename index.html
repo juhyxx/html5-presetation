@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/default.css" id="theme">
+    <link rel="stylesheet" href="css/spinner.css">
     <link rel="stylesheet" href="css/add.css">
     
     <script src="jquery-1.11.1.min.js"></script>
@@ -774,15 +775,15 @@ transform: matrix(rotate, scale, move, skew);
                         <small>3D Transforms</small>
                     </h2>
                     <h3>translate</h3>
-                    <div style="height:200px;">
+                    <div style="height:200px;" class="rotate">
                         <div class="box">Original</div>
                         <div class="box" style=" transform: translateX(60px);opacity: 0.8">Transformed</div>
                     </div>
-                    <div style="height:200px;">
+                    <div style="height:200px;" class="rotate">
                         <div class="box">Original</div>
                         <div class="box" style=" transform: translateY(60px);opacity: 0.8">Transformed</div>
                     </div>
-                     <div style="height:200px;">
+                     <div style="height:200px;" class="rotate">
                         <div class="box">Original</div>
                         <div class="box" style=" transform: translateZ(60px);opacity: 0.8">Transformed</div>
                     </div>
@@ -792,17 +793,35 @@ transform: matrix(rotate, scale, move, skew);
                         <small>3D Transforms</small>
                     </h2>
                     <h3>rotate</h3>
-                    <div style="height:200px;">
+                    <div style="height:200px;" class="rotate">
                         <div class="box">Original</div>
                         <div class="box" style=" transform: rotateX(70deg);opacity: 0.8">Transformed</div>
                     </div>
-                    <div style="height:200px;">
+                    <div style="height:200px;" class="rotate">
                         <div class="box">Original</div>
                         <div class="box" style=" transform: rotateY(70deg);opacity: 0.8">Transformed</div>
                     </div>
-                     <div style="height:200px;">
+                     <div style="height:200px;" class="rotate">
                         <div class="box">Original</div>
                         <div class="box" style=" transform: rotateZ(70deg);opacity: 0.8">Transformed</div>
+                    </div>
+                </section>
+                <section>
+                    <h2>Example
+                        <small>3D Transforms</small>
+                    </h2>
+                    <h3>scale</h3>
+                    <div style="height:200px;" class="rotate">
+                        <div class="box">Original</div>
+                        <div class="box" style=" transform: scaleX(2);opacity: 0.8">Transformed</div>
+                    </div>
+                    <div style="height:200px;" class="rotate">
+                        <div class="box">Original</div>
+                        <div class="box" style=" transform: scaleY(2);opacity: 0.8">Transformed</div>
+                    </div>
+                     <div style="height:200px;" class="rotate">
+                        <div class="box">Original</div>
+                        <div class="box" style=" transform: scaleZ(2);opacity: 0.8">Transformed</div>
                     </div>
                 </section>
                 
@@ -812,6 +831,16 @@ transform: matrix(rotate, scale, move, skew);
                     <h2>Transitions and Animations
                         <small>CSS 3</small>
                     </h2>
+                </section>
+                <section>
+                    <h2>Example <small>Transitions</small></h2>
+                    <div class="box" id="transition" style="-webkit-transition:all 1s"></div>
+                    <button onclick="$('#transition').css('opacity', 0)">Opacity 0</button>
+                    <button onclick="$('#transition').css('opacity', 1)">Opacity 1</button><br>
+                    <button onclick="$('#transition').css('background-color', 'blue')">Color Blue</button>
+                    <button onclick="$('#transition').css('background-color', 'red')">Color Red</button><br>
+                    <button onclick="$('#transition').css('transform', 'rotate(45deg)')">Rotation 45</button>
+                    <button onclick="$('#transition').css('transform', 'rotate(270deg)')">Rotation 270</button>
                 </section>
                 <section>
                      <dl>
@@ -836,16 +865,52 @@ transform: matrix(rotate, scale, move, skew);
                     <a href="http://cubic-bezier.com">cubic-bezier.com</a>
                 </section>
                 <section>
-                    <h2>Example <small>Transitions</small></h2>
-                    <div class="box" id="transition" style="-webkit-transition:all 1s"></div>
-                    <button onclick="$('#transition').css('opacity', 0)">Opacity 0</button>
-                    <button onclick="$('#transition').css('opacity', 1)">Opacity 1</button><br>
-                    <button onclick="$('#transition').css('background-color', 'blue')">Color Blue</button>
-                    <button onclick="$('#transition').css('background-color', 'red')">Color Red</button><br>
-                    <button onclick="$('#transition').css('transform', 'rotate(45deg)')">Rotation 45</button>
-                    <button onclick="$('#transition').css('transform', 'rotate(270deg)')">Rotation 270</button>
+                    <h2>Animations</h2>
+
+                  
+
+                     <div style="height:200px;" class="rotate">
+                       <img src="monk.png">
+                    </div>
+
+<pre><code data-trim>
+.rotate {
+    -webkit-animation: spin3d 20s linear infinite;
+}
+
+@-webkit-keyframes spin3d {
+    100% {
+        -webkit-transform: rotateY(360deg);
+    }
+}
+</code></pre>
                 </section>
-            </section>
+                <section>
+                    <h2>Animations</h2>
+                    <div id="spinner" style=" transform: rotateX(70deg);">
+                        <ul>
+                            <li><div></div></li>
+                            <li><div></div></li>
+                            <li><div></div></li>
+                            <li><div></div></li>
+                            <li><div></div></li>
+                            <li><div></div></li>
+                            <li><div></div></li>
+                            <li><div></div></li>
+                        </ul>
+                    </div>
+                    <pre><code data-trim>
+@-webkit-keyframes hlt {
+    0% { background-color: orange; }
+    10% { background-color: orange; }
+    11% { background-color: lightgray; }
+    100% { background-color: lightgray; }
+}
+</code></pre>
+
+
+                </section>
+         </section>
             
             <section>
                 <section>
