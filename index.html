@@ -705,9 +705,31 @@ source.onmessage = function(event) {
                 </section>
             </section>
             <section>
-                <h2>Backgrounds and Borders
-                    <small>CSS 3</small>
-                </h2>
+                 <section>
+                    <h2>Backgrounds and Borders
+                        <small>CSS 3</small>
+                    </h2>
+                </section>
+                <section>
+                    <h2>Multiple backgrounds</h2>
+                    <pre><code data-trim>
+                background: url(monk.png) no-repeat 20px 20px,
+            -webkit-linear-gradient(white,transparent 50%) 
+            gray;
+                </code></pre>
+                    <div style="background: url(monk.png) no-repeat 20px 20px, -webkit-linear-gradient(white,transparent 50%) gray; width:150px; height: 220px;padding: 20px;margin:auto;"></div>
+                </section>
+                <section>
+                    <h2>Borders</h2>
+                    <pre><code data-trim>
+border-image: url(border.png) 20 20 round;
+border-image: url(border.png) 20 20 stretch;
+               
+                </code></pre>
+                    <img src="border.png" style="float:left;margin: 40px;border:0;background-color:transparent;display:block;">
+                    <div style="border-image: url(border.png) 20 20 round; background: url(monk.png) no-repeat; height: 183px;width:115px;padding: 20px;border-width: 20px;float:left;margin-right: 20px;"></div>
+                    <div style="border-image: url(border.png) 20 20 stretch; background: url(monk.png) no-repeat; height: 183px;width:115px;padding: 20px;float:left;border-width: 20px;"></div>
+                </section>
             </section>
             <section>
                  <section>
@@ -866,9 +888,6 @@ transform: matrix(rotate, scale, move, skew);
                 </section>
                 <section>
                     <h2>Animations</h2>
-
-                  
-
                      <div style="height:200px;" class="rotate">
                        <img src="monk.png">
                     </div>
