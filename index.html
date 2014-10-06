@@ -18,11 +18,8 @@
     <script src="Spinner.js"></script>
     <script>
     window.onload = function() {
-
         var spinner = new Spinner(document.getElementById('drawarea'));
-
         spinner.run();
-
     }
     </script>
     <!-- For syntax highlighting -->
@@ -484,27 +481,100 @@
                 </h1>
             </section>
             <section>
-                <dl>
-                    <dt class="ie"></dt>
-                    <dt class="firefox"></dt>
-                    <dt class="chrome"></dt>
-                </dl>
-                <h1>Application cache
-                    <small>JS API</small>
-                </h1>
-                <ul>
-                    <li>manifest</li>
-                </ul>
+                <section>
+                    <dl>
+                        <dt class="ie"></dt>
+                        <dt class="firefox"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <h1>Application cache
+                        <small>JS API</small>
+                    </h1>
+                </section>
+                
+                <section>
+                    <h1>Application cache</h1>
+                      <pre><code data-trim>
+CACHE MANIFEST
+# 2012-02-21 v1.0.0
+/theme.css
+/logo.gif
+/main.js
+
+NETWORK:
+login.asp
+
+FALLBACK:
+/html/ /offline.html
+                    </pre></code>
+                </section>
+                <section>
+                    <h1>Application cache</h1>
+                      <pre><code data-trim>
+                        &lt;html manifest="demo.appcache">
+                    </pre></code>
+                </section>
+                <section  data-markdown>
+                    #Application cache
+                      
+                    * Offline browsing
+                    * Speed
+                    * Reduced server load
+                </section>
+
+
             </section>
             <section>
-                <dl>
-                    <dt class="ie"></dt>
-                    <dt class="firefox"></dt>
-                    <dt class="chrome"></dt>
-                </dl>
-                <h1>Javascript workers
-                    <small>JS API</small>
-                </h1>
+                <section>
+                    <dl>
+                        <dt class="ie"></dt>
+                        <dt class="firefox"></dt>
+                        <dt class="chrome"></dt>
+                    </dl>
+                    <h1>Javascript workers
+                        <small>JS API</small>
+                    </h1>
+                </section>
+                <section>
+                    <h1>Example
+                        <small>Javascript workers</small>
+                    </h1>
+                    <button id=create>Create worker</button>
+                    <button id=terminate>Terminate worker</button>
+                    <div id="delay">Delay</div>
+                    <pre><code data-trim>
+worker = new Worker("worker.js");
+
+worker.js:
+
+postMessage(eq());
+
+function eq() {
+    var date = new Date(),
+        arr = [];
+
+    for (var i = 0; i < 100000; i++) {
+        for (var j = 0; j < 100000; j++) {}
+    }
+    return (new Date()) - date;
+}
+                    </code></pre>
+                    <script>
+                        var worker;
+                        $('#create').click(function() {
+                             worker = new Worker("worker.js");  
+                              $('#delay').html('running...'); 
+                            worker.onmessage = function (oEvent) {
+                                $('#delay').html(oEvent.data);
+                            };
+                        });
+                        $('#terminate').click(function() {
+                            worker.terminate();
+                            $('#delay').html('terminated');
+                        });
+                    </script>
+                </section>
+                
             </section>
             <section>
                 <dl>
@@ -934,6 +1004,8 @@ transform: matrix(rotate, scale, move, skew);
             <section>
                 <section>
                     <h1>Back compatibility</h1>
+                </section>
+                <section>
                     <h2>Support in IE8</h2>
                     <pre><code data-trim>&lt;script>
   document.createElement('header');
@@ -956,6 +1028,23 @@ transform: matrix(rotate, scale, move, skew);
 
                 * Form validation
                 * Using before/after
+
+            </section>
+            <section data-markdown>
+                #News
+
+                * Shadow DOM
+                * Layouts
+                * Gamepad API
+                * Web MIDI API
+                * Web Audio API
+                * HTML Media Capture
+                * High Resolution Time
+                * Vibration API
+                * Battery Status API
+                * Fullscreen API
+                * WebSocket API
+
             </section>
             <section>
                 <img src="brain.svg" style="display:block;margin:auto;background-color:transparent;border:0;box-shadow: none;">
