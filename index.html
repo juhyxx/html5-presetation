@@ -476,6 +476,8 @@
                     <h2>Web SQL Database</h2>
                     <ul>
                         <li>Relation Database</li>
+                        <li class="fragment highlight-red">no longer in active maintenance</li>
+                        <li class="fragment highlight-red">support can be dropped.</li>
                     </ul>
                 </section>
                 
@@ -632,7 +634,6 @@ function eq() {
                         });
                     </script>
                 </section>
-                
             </section>
             <section>
                 <dl>
@@ -644,8 +645,9 @@ function eq() {
                     <small>JS API</small>
                 </h1>
                 <ul>
+                    <li>fetching data</li>
                     <li>responseType</li>
-                    <li>progress</li>
+                    <li>CORS</li>
                 </ul>
             </section>
             <section>
@@ -711,7 +713,7 @@ function eq() {
                     </table>
                 </section>
             </section>
-            <section>
+            <!--section>
                 <dl>
                     <dt class="ie "></dt>
                     <dt class="firefox "></dt>
@@ -720,7 +722,7 @@ function eq() {
                 <h1>Drag and Drop
                     <small>JS API</small>
                 </h1>
-            </section>
+            </section-->
             <section>
                 <section>
                     <dl>
@@ -1101,25 +1103,30 @@ transform: matrix(rotate, scale, move, skew);
 
             </section>
             <section data-markdown>
-                #News
+                #Related APIs
 
-                * Shadow DOM
+                * Shadow DOM (In progress, only Chrome)
                 * Layouts
-                    * Flexbox
-                    * Grid Layout
-                * Gamepad API
-                * Web MIDI API
-                * Web Audio API
-                * HTML Media Capture
-                * High Resolution Time
-                * Vibration API
-                * Battery Status API
-                * Fullscreen API
-                * WebSocket API
-
+                    * Flexbox (Flexible Box Layout Module) (Most partial support refers to supporting an older version )
+                    * Grid Layout (only IE, supporting an older version of the specification.)
+                * WebSocket API (All)
+                * Multimedia
+                    * Web MIDI API
+                    * Web Audio API
+                    * HTML Media Capture
+                * Fullscreen API (All, prefixed)
             </section>
            
              
+            <section data-markdown>
+                #Related APIs
+
+                * Gamepad API (Chrome, Firefox)
+                * High Resolution Time
+                * Vibration API (Firefox, Chrome)
+                * Battery Status API (Firefox)
+                * WebGL (All)
+            </section>
              
             <section>
                 <h1>Resources</h1>
