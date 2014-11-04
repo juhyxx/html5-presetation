@@ -413,13 +413,13 @@
                 </section>
             </section>
             <section>
+                <h1>JavaScript API</h1>
+            </section>
+            <section>
                 <img src="brain.svg" style="display:block;margin:auto;background-color:transparent;border:0;box-shadow: none;">
                 <h3>String reverser</h3>
                 <em>Input:</em> character, count ("a", 10)<br>
                 <em>Output:</em> edcba
-            </section>
-            <section>
-                <h1>JavaScript API</h1>
             </section>
             <section>
                 <section>
@@ -756,87 +756,147 @@ source.onmessage = function(event) {
             </section>
             <section>
                 <section>
-                    <h1>Selectors</h1>
+                    <h1>Selectors <small> CSS 3</small></h1>
                 </section>
                 <section>
                     <h1>Selectors</h1>
                     <ul style="list-style-type:none;">
-                        <li>.class</li>
-                        <li>#id</li>
-                        <li>*</li>
                         <li>element</li>
-                        <li>element<em>,</em>element</li>
-                        <li>element element</li>
-                        <li>element<em>></em>element</li>
-                        <li>element<em>+</em>element</li>
-                        <li class="fragment  grow ">element1<em>~</em>element2</li>
+                        <li>.<em>class</em></li>
+                        <li>#<em>id</em></li>
+                        <li>*</li>
+                        <li>&nbsp;</li>
+                    </ul>
+                    <ul style="list-style-type:none;">
+                        <li><em>element</em>, <em>element</em></li>
+                        <li><em>element element</em></li>
+                        <li><em>element</em>><em>element</em></li>
+                        <li><em>element</em>+<em>element</em></li>
+                        <li class="fragment  roll-in "><em>element1</em>~<em>element2</em></li>
                     </ul>
                 </section>
                 <section>
-                  <h1>Selectors</h1>
+                  <h1>Attribute Selectors</h1>
                     <ul style="list-style-type:none;">
                         <li>[attribute]</li>
-                        <li>[attribute<em>=</em>value]</li>
-                        <li>[attribute<em>~=</em>value]</li>
-                        <li class="fragment grow">[attribute<em>^=</em>value]</li>
-                        <li class="fragment grow">[attribute<em>$=</em>value]</li>
-                        <li class="fragment grow">[attribute<em>*=</em>value]</li>
+                        <li><em>[attribute</em>=<em>value]</em></li>
+                        <li><em>[attribute</em>~=<em>value]</em></li>
+                        <li class="fragment roll-in"><em>[attribute</em>^=<em>value</em>]</li>
+                        <li class="fragment roll-in"><em>[attribute</em>$=<em>value</em>]</li>
+                        <li class="fragment roll-in"><em>[attribute</em>*=<em>value</em>]</li>
                     </ul>
                 </section>
+
                 <section>
-                  <h1>Selectors</h1>
-                    <ul style="list-style-type:none;">
+                  <h1>Pseudo-classes </h1>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
+                        <li>:hover</li>
                         <li>:active</li>
+                        <li>:visited</li>
+                    </ul>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
+                        <li>:focus</li>
+                        <li>:lang()</li>
+                        <li>:target</li>
+                    </ul>
+                </section>
+
+                <section>
+                  <h1>Tree-Structural pseudo-classes</h1>
+                   <ul style="list-style-type:none;" class="fragment roll-in">
+                        <li>:root</li>
+                        <li>:empty</li>
+                        <li>:blank</li>
+                        <li>:matches()</li>
+                        <li>:not()</li>
+                        <li>&nbsp;</li>                        
+                    </ul>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
+                        <li>:first-child</li>
+                        <li>:last-child</li>
+                        <li>:only-child</li> 
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                    </ul>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
+                        <li>:first-of-type</li>
+                        <li>:last-of-type</li>
+                        <li>:only-of-type</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                    </ul>
+                </section>
+                
+
+                <section>
+                  <h1>Pseudo-elements </h1>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
                         <li>::after</li>
                         <li>::before</li>
-                        <li class="fragment grow">:checked </li>
-                        <li class="fragment grow">:disabled</li>
-                        <li class="fragment grow">:empty</li>
-                        <li class="fragment grow">:enabled</li>
+                    </ul>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
+                        <li>:first-line</li>
+                        <li>:first-letter</li>
+                    </ul>
+                        
+                </section>
+                <section>
+                    <h1>Input Value States</h1>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
+                        <li>:read-only</li>
+                        <li>:read-write</li>
+                    </ul>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
+                        <li>:disabled</li>
+                        <li>:enabled</li>
+                    </ul>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
+
+                    </ul>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
+                        <li>:valid</li>
+                        <li>:invalid</li>
+                    </ul>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
+                        <li>:required</li>
+                        <li>:optional</li>
+                    </ul>
+                    <br><br>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
+                        <li>:out-of-range</li>
+                        <li>:in-range</li>
+                    </ul>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
+                        <li>:read-only</li>
+                        <li>:read-write</li>
+                    </ul>
+                    <ul style="list-style-type:none;" class="fragment roll-in">
+                        <li>:checked </li>
                     </ul>
                 </section>
+                <section>
+                    <h1>Parent selector</h1>    
+                    <em>element</em> < <em>element</em><br>
+                    <em>element</em> : <em>parent</em>
+
+                    <pre><code>a img:parent { background: none; }</code></pre>
+                </section>
+            </section>
+            <section>
                  <section>
-                    <h1>Selectors</h1>
-                    <ul style="list-style-type:none;">
-                        <li>:first-child</li>
-                        <li class="fragment grow highlight-red">:last-child</li>
-                        <li>::first-letter</li>
-                        <li>::first-line</li>
-                        <li class="fragment grow">:first-of-type</li>
-                        <li>:focus</li>
-                        <li>:hover</li>
-                        <li class="fragment grow">:in-range</li>
-                        <li class="fragment grow">:valid :invalid</li>
-                        <li>:lang(language)</li>
-                    </ul>
-                </section>
-                <section>
-                    <h1>Selectors</h1>
-                    <ul style="list-style-type:none;">
-                        <li>:link</li>
-                        <li class="fragment grow">:last-of-type</li>
-                        <li class="fragment grow">:nth-child(n)</li>
-                        <li class="fragment grow">:nth-last-child(n)</li>
-                        <li class="fragment grow">:nth-last-of-type(n)</li>
-                        <li class="fragment grow">:nth-of-type(n)</li>
-                        <li class="fragment grow">:only-of-type</li>
-                        <li class="fragment grow">:only-child</li>
-                        <li class="fragment grow">:optional</li>
-                        <li class="fragment grow">:out-of-range</li>
-                        <li class="fragment grow">:read-only</li>
-                    </ul>
-                </section>
-                <section>
-                    <h1>Selectors</h1>
-                    <ul style="list-style-type:none;">
-                        <li class="fragment grow">:not(selector)</li>
-                        <li class="fragment grow">:read-only</li>
-                        <li class="fragment grow">:read-write</li>
-                        <li class="fragment grow">:required</li>
-                        <li class="fragment grow">:root</li>
-                        <li class="fragment grow">::selection</li>
-                        <li class="fragment grow">:target</li>
-                        <li>:visited</li>
+                    <h2>Properties <small>CSS3</small></h2>
+                    <ul>
+                        <li>border-radius</li>
+                        <li>box-shadow</li>
+                        <li>text-shadow</li>
+                        <li >text-stroke</li>
+                        <li> box-sizing</li>
+                        <li>background-origin</li>
+                        <li>background-clip</li>
+                        <li>background-size</li>
+
                     </ul>
                 </section>
             </section>
@@ -857,8 +917,7 @@ source.onmessage = function(event) {
                 </section>
                 <section>
                     <h2>Borders</h2>
-                    <pre><code data-trim>
-border-image: url(border.png) 20 20 round;
+                    <pre><code data-trim>border-image: url(border.png) 20 20 round;
 border-image: url(border.png) 20 20 stretch;
                
                 </code></pre>
@@ -1129,6 +1188,7 @@ transform: matrix(rotate, scale, move, skew);
                     <li>w3.org</li>
                     <li>css-tricks.com</li>
                     <li>https://developer.mozilla.org</li>
+                    <li>http://juhyxx.github.io/html5-presetation/</li>
                 </ul>
             </section>
 
@@ -1147,8 +1207,8 @@ transform: matrix(rotate, scale, move, skew);
     // Full list of configuration options available here:
     // https://github.com/hakimel/reveal.js#configuration
     Reveal.initialize({
-        controls: true,
-        progress: true,
+        controls: false,
+        progress: false,
         history: true,
         center: true,
 
